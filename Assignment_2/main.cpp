@@ -12,7 +12,7 @@ using namespace std;
 void menu();
 int main(int argc, const char * argv[]) {
     
-    int n;
+   int option
     List list;
     do{
        
@@ -20,10 +20,10 @@ int main(int argc, const char * argv[]) {
         menu();
         int value;
         cout<<"Enter a value: ";
-        cin>>n;
+        cin>>option;
         
         
-        switch (n) {
+        switch (option) {
             case 1:
                 cout<<"Insert a value: ";
                 cin>>value;
@@ -52,7 +52,7 @@ int main(int argc, const char * argv[]) {
                 break;
         }
     
-    }while(n!=7);
+    }while(option!=7);
     
     return 0;
 }
