@@ -54,7 +54,7 @@ void Queue::display(){
     //print first element
     cout<<myArray[myFront]<<endl;
     //wrap around array printing each value out
-    //Remember the % operator returns the remainder, which will represent the indexex in our array.
+    //Remember the % operator returns the remainder, which will represent the indexes in our array.
     for (int n =(myFront+1)%MAX; n!=(myBack+1)%MAX; n=((n+1)%MAX) ) {
         cout<<n<<endl;
     }
